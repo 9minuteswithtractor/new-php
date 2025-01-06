@@ -64,5 +64,17 @@
 }
 ```
 ## ❗️remove both comments and save `launch.json` [ if error ]
+     ❗️if Xdebug error
+if ***launch php server*** is stuck on port *`8000`* or doesn't start at all : 
+
+`lsof -i :8000`
+
+this will return info with `PID` nr 
+*this identifies the process using port `8000`*
+
+`kill <PID_NR>`
+
+**it should free the port and fix the issue** 🤞 🙂
+___  
 # contributors :
 ***@mikelsons, @9minuteswithtractor***

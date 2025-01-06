@@ -12,5 +12,6 @@ function postmanErrLogs()
 {
     ini_set('display_errors', 1);
     error_reporting(E_ALL);
-    echo 'Let\'s get started! 💪 😎 🚀';
+    echo 'Let\'s get started! 💪 😎 🚀 ' . __FILE__;
+    echo "\n";
 }
