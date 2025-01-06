@@ -1,7 +1,8 @@
 <?php
 
-// ❗️ make changes to .vscode/postmanErrLog.php and err [Call to unknown function] will disappear .
+// ⍰ uncomment if needed ( for debugging in browser )
+// ini_set('display_errors', 1);
+// error_reporting(E_ALL);
 
-require_once '../../.vscode/postmanErrLog.php';
 
-postman\postmanErrLogs();
+echo 'Let\'s get started! 💪 😎 🚀 ';
