@@ -1,6 +1,6 @@
 # about :
     new php proj template with debug
-## debugger
+## debugger :
     Check if php installed 
 
 `php -v`
@@ -63,5 +63,6 @@
     ]
 }
 ```
-## contributors:
+## ❗️remove both comments and save `launch.json` [ if error ]
+# contributors :
 ***@mikelsons, @9minuteswithtractor***
